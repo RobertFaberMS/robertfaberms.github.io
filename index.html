@@ -1,9 +1,102 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Tea Cozy</title>
+</head>
 
 <body>
-  <h1>Robert's Name</h1>
-  <p>Welcome to Robert's default website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <div class="navbar-container">
+        <div class="navbar">
+            <div id="logo-container">
+                <a href="#" class="logo"><img src="img/img-tea-cozy-logo.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="#">Mission</a></li>
+                <li class="nav-item"><a href="#">Featured Tea</a></li>
+                <li class="nav-item"><a href="#">Locations</a></li>
+            </ul>
+        </div>
+    </div>
 
-</html>
+    <!-- large banner image. not sure how to call that yet -->
+    <div class="background-container">
+        <img src="img/img-mission-background.jpg" style="height: 700px; width: 1200px; object-fit: cover;" alt="mission bakground"/>
+        <div class="mission-container"> 
+            <h2 id="mission">Our Mission</h2>
+            <h4 id="handpicked">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+        </div>
+    </div>
+
+    <!-- 2nd section, teas -->
+    <div class="tea-container">
+        <div class="tea-text">
+            <h2 id="teaofthemonth">Tea of the Month</h2>
+            <h4 id="whatssteeping">What's Steeping at The Tea Cozy?</h4>
+        </div>
+        <!-- first row of 3 -->
+        <div class="teas1">
+            <figure>
+                <img class="tea-types" src="img/img-berryblitz.jpg" alt="Fall Berry Blitz Tea"/>
+                <figcaption>Fall Berry Blitz Tea</figcaption>
+            </figure>
+            <figure>
+                <img class="tea-types" src="img/img-spiced-rum.jpg" alt="Spiced Rum Tea"/>
+                <figcaption>Spiced Rum Tea</figcaption>
+            </figure>
+            <figure>
+                <img class="tea-types" src="img/img-donut.jpg" alt="Seasonal Donuts"/>
+                <figcaption>Seasonal Donuts</figcaption>
+            </figure>
+            
+        </div>
+        <div class="break"></div> <!-- break -->
+        <!-- second row of 3 -->
+        <div class="teas2">
+            <figure>
+                <img class="tea-types" src="img/img-myrtle-ave.jpg" alt="Myrtle Ave Tea"/>
+                <figcaption>Myrtle Ave Tea</figcaption>
+            </figure>
+            <figure>
+                <img class="tea-types" src="img/img-bedford-bizarre.jpg" alt="Bedford Bizarre Tea"/>
+                <figcaption>Bedford Bizarre Tea</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- Begin locations -->
+    <div class="location-container">
+        <div class="location-img"><img src="img/img-locations-background.jpg" style="height: 500px; width: 1200px; object-fit: cover; object-position: 0 0;" alt="locations"/></div>
+        <div class="locations-text-container">
+            <div class="tea-container">
+                <div class="locations-text">
+                    <h2>Locations</h2>
+                </div>
+                <div class="location-cards">
+                    <div id="downtown">
+                        <p class="location-box"><h3>Downtown</h3><h4>384 West 4th St<br><br>Suite 108<br><br>Portland, Maine</h4></p>
+                    </div>
+                    <div id="eastbayside">
+                        <p class="location-box"><h3>East Bayside</h3><h4>3343 Phisherman's Avenue<br><br>(Northwest Corner)<br><br>Portland, Maine</h4></p>
+                    </div>
+                    <div id="oakdale">
+                        <p class="location-box"><h3>Oakdale</h3><h4>515 Crescent Avenue<br><br>Second Floor<br><br>Portland, Maine</h4></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <h3>The Tea Cozy</h3>
+        <h5>contact@theteacozy.com<br><br>917*555*8904</h5>
+    </div>
+<footer></footer>
+    <div class="footer">
+        <h5>copyright The Tea Cozy 2017</h5>
+    </div>
+
+</body>
+</html>   
